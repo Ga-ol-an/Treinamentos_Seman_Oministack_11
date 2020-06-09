@@ -1,3 +1,30 @@
-h1{
-    color: #7159c1;
+.logon-container{
+
+    width:100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display:flex;/* por padrao os icones ficam um ao lado do outro */
+    align-items: center; /* alinha os intens verticalmente */
+    justify-content: center;/* Alinha os icones horizontalmente */
+
+}
+
+.logon-container section.form{/* Vou estilizar a section form dentro do logon container */
+    width: 100%;
+    max-width: 350px;/* Esses dois comandos ajudam muito na responsividade */
+
+    margin-right: 30px;
+
+}
+
+.logon-container section.form form{
+
+    margin-top: 100px;
+}
+
+.logon-container section.form form h1{
+    font-size: 32px;
+    margin-bottom: 32px;
 }
