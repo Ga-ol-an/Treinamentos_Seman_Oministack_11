@@ -36,6 +36,17 @@ form input{/* Vou estilizar inputs dentro de forms */
     border-radius: 8px;
     padding: 0 24px;
 }
+form textarea{/* Vou estilizar inputs dentro de forms */
+    width: 100%;
+    min-height:140px ;
+    height: 60px;
+    resize: vertical;
+    color:#333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 16px 24px;
+    line-height: 24px;
+}
 
 .button{/* Agora eu vou estilizar a classe chamada button, 
     pois podem haver outros butoes */
@@ -63,7 +74,8 @@ form input{/* Vou estilizar inputs dentro de forms */
     filter: brightness(90%);
 }
 
-.logon-container section.form form a{/* Estou agora estilizando o link */
+
+.backLink{/* Estou agora estilizando o link */
     display: flex;
     align-items: center;
     margin-top: 40px;
@@ -74,10 +86,10 @@ form input{/* Vou estilizar inputs dentro de forms */
     transition: opacity 0.2s;
 
 }
-.logon-container section.form form a svg{
+.backLink svg{
     /* Esses icones devem ser tratados como svg */
     margin-right: 8px;
 }
-.logon-container section.form form a:hover{
+.backLink:hover{
     opacity: 0.8 ;
 }

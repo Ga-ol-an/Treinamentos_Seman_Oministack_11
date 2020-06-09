@@ -1,5 +1,4 @@
 .logon-container{
-
     width:100%;
     max-width: 1120px;
     height: 100vh;
@@ -7,7 +6,7 @@
 
     display:flex;/* por padrao os icones ficam um ao lado do outro */
     align-items: center; /* alinha os intens verticalmente */
-    justify-content: center;/* Alinha os icones horizontalmente */
+    justify-content: space-between;/* Alinha os icones horizontalmente */
 
 }
 

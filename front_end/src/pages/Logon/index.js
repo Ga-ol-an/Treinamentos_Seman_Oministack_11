@@ -2,6 +2,8 @@ import React from 'react';
 
 import './styles.css'
 
+import {Link} from 'react-router-dom'
+
 import heroesImg from '../../assets/heroes.png'
 import logoImg from '../../assets/logo.svg'
 
@@ -31,9 +33,11 @@ export default function Logon(){
                         o nome do icone vc pega no site
                         ]Voce tem que por FI antes do nome do icone tbm
                     */}
-                        <FiLogIn size={16} color='#e02041'/>
-                        <a href="/register">Não tenho cadastro</a>
-                    
+                       
+                        <Link className='backLink' to="/register">
+                             <FiLogIn size={16} color='#e02041'/>
+                             Não tenho cadastro
+                        </Link>
                    
                     </form>
             </section>
