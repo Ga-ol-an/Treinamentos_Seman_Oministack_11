@@ -14,7 +14,7 @@ const SessionController = require ("./controllers/SessionController")
 routes.post('/sessions',SessionController.create)
 
 
-routes.post("/ongs", OngController.create)
+routes.post("/cad_ongs", OngController.create)
 routes.get('/allongs', OngController.list)
 
 routes.get('/profile',ProfileController.index)

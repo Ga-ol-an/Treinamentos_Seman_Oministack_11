@@ -12,11 +12,12 @@ const cors= require('cors')//eu tive que instalar o cors
 
 
 //eu tenho agora a variável express que tem importado tudo de express
+const app = express();
 
 //agora a nossa aplicacao ja foi criada
 app.use(cors())//quando tudo já estiver funfando, voce pode fazer um
 //origin e colocar o link do seu app
-const app = express();
+
 app.use(express.json());//estou dizendo que vu usar json
 app.use(routes);//preço pra usar o arquivo rotas que criei
 
