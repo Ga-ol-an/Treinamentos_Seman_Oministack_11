@@ -1,0 +1,56 @@
+Vamos usar a biblioteca celebrate, para isntalar :
+npm install celebrate
+
+A validaçao para o backend é bem mais importante do que a do front end, apesar da validacao do front ser importante tambem.
+
+Ela irá no arquivo routes e será prinicipalmente colocado nas rotas de alteração e criação de dados.
+	Nas rotas de listagem, vc pode por validacao na parte de numeracao das pagainas
+
+Testes -=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-=-
+
+Com muitas paginas, uma depende da outra e o teste é melhor 
+TDD -  Text driven development
+Voce deve criar o teste antes e depois criar o teste
+ 	Ver mais sobre TDD
+
+Vamos usar o jest pra testar nosso codigo
+
+testes unit- testa um pedaço de fomra muito isolada - como o generate uniq id
+
+
+testes integration - textam os fluxos de rotas da nossa aplicacao.
+enviar o id, testa a resposta, etc.
+ele testa a funcionalidade toda
+
+-=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-=--=-=--=
+
+
+-==-=-=-=--==-=-=-=--==-=-=-=--==-=-=-=--==-=-=-=--==-=-=-=--==-=-=-=--==-=-=-=-
+deploy -> Onde deixar o seu teste
+voce pode colocar o node (nao o react)
+video rocket -> deploy heroku node
+heroku
+serve pra testar de brincadeira -> tem a versão gratis
+
+digitalocean
+coloca o react-> 5 dolares mensais
+deploy node js rocketseat - masterclass
+
+se ficar muuito grande, contrata alguem asuehsauesaeah
+
+///os deploys acima sao pro backend
+///os pra baixo sao backend
+
+netlify - é específico pra front end
+	voce so seleciona o seu local no github e ja começa a funcionar
+
+//pra gerar o apk api com o o expo
+video rocketseat no y2b
+
+//padroes de codigos
+prettier eslint ->ok
+autenticacao JNT. (pra segurança)
+Styled Components 
+
+
+

@@ -13,6 +13,17 @@ module.exports = {
     },
     useNullAsDefault:true,
   },
+  test: {
+    client: 'sqlite3',
+    connection: {
+      //aqui eu coloco onde vou salvar o arquivo do meu banco de dados
+      filename: './src/database/teste.sqlite'
+    },
+    migrations:{
+      directory: './src/database/migrations'
+    },
+    useNullAsDefault:true,
+  },
 
   staging: {
     client: 'postgresql',

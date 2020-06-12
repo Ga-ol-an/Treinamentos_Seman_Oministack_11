@@ -1,14 +1,13 @@
 const connection = require("../database/conection");
-
+const generateUniqueID=require('../utils/generateUniqueID.js')
 //função pra criar id aleatorio
 
-const crypto = require("crypto");
 
 module.exports = {
     async create(request, response) {
         const { name, email, whatsapp, city, uf } = request.body;
 
-        const id = crypto.randomBytes(4).toString("HEX");
+        const id = generateUniqueID();
         //mandar ongs pro banco de dados poe demorar, ai
         //voce faz o async pra que o return só aconteça depois do inset
 

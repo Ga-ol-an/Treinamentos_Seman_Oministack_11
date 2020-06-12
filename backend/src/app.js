@@ -8,7 +8,7 @@ const cors= require('cors')//eu tive que instalar o cors
 //pra eu poder fazer isso
 
 
-
+const {errors}=require('celebrate')
 
 
 //eu tenho agora a variável express que tem importado tudo de express
@@ -21,6 +21,7 @@ app.use(cors())//quando tudo já estiver funfando, voce pode fazer um
 app.use(express.json());//estou dizendo que vu usar json
 app.use(routes);//preço pra usar o arquivo rotas que criei
 
+app.use(errors());//agora, nao vai estourar o erro 500 pro usuario
 
 //meu aplicativo agora pode ser acessado no endereço:
 //localhost:3333 -  comando -app.listen(3333);
@@ -88,5 +89,5 @@ app.use(routes);//preço pra usar o arquivo rotas que criei
 //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-app.listen(3333);
+module.exports = app;
 
